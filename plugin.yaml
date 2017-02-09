@@ -1,0 +1,6 @@
+plugin:
+    name: 'arteriaweb.formplugin::lang.plugin.name'
+    description: 'arteriaweb.formplugin::lang.plugin.description'
+    author: arteriaweb
+    icon: oc-icon-asterisk
+    homepage: ''
