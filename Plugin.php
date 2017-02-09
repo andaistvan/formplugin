@@ -1,4 +1,6 @@
-<?php namespace Arteriaweb\Formplugin;
+<?php
+
+namespace Arteriaweb\FormPlugin;
 
 use System\Classes\PluginBase;
 
@@ -17,14 +19,14 @@ class Plugin extends PluginBase
     public function registerComponents()
     {
 		 return [
-			'Arteriaweb\Formplugin\Components\Formplugin' => 'formplugin',
+			'Arteriaweb\formplugin\Components\FormPlugin' => 'formplugin',
 		 ];
     }
 
     public function registerSettings()
     {
 		 return [
-			 
+
 		 ];
     }
 }
